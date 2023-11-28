@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: #0000ff;
+  color: #EAEDF0;
+}
+
+h1{
+  text-align: center;
+}
+
+#fotod{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 45px;
+}
+
+#foto{
+  height: 400px;
+  width: 350px;
+}
+
+.h1{
+  display: flex;
+  margin-right: 50px;
+}
+
+.h1h{
+    flex-direction: column;
+    align-self: center;
+}
