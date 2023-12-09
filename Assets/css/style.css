@@ -9,6 +9,9 @@ body{
   color: #EAEDF0;
 }
 
+
+}
+
 h1{
   text-align: center;
 }
@@ -33,4 +36,120 @@ h1{
 .h1h{
     flex-direction: column;
     align-self: center;
+}
+
+.story{
+  border: 2px solid #EAEDF0;
+  border-radius: 5px;
+  background-color: #212529;
+}
+
+P{
+  text-align: center;
+  line-height: 1.8em;
+}
+
+.lista{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul{
+  text-align: center;
+}
+
+.list-group{
+  margin-top: 100px;
+  align-self: center;
+}
+
+.contacts{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:  #212529;
+  margin-top: 100px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/*style cv*/
+.cv{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212529;
+  border: 2px solid #dcedff;
+  border-radius: 3px;
+
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+address{
+  width: 100%;
+  display: flex;
+
+}
+.h{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.f{
+  display:flex;
+  justify-content: center;
+}
+
+#fotocv{
+  height: 200px;
+  width: 200px;
+}
+
+.PI{
+  border-right: 2px solid;
+  border-color: #EAEDF0;
+  align-self: flex-start;
+}
+
+article{
+  width: 100%;
+}
+
+.contenitore{
+  width: 100%;
+  display:flex;
+  justify-content: flex-start;
+
+
+}
+
+.Skills{
+ border-right: 2px solid #EAEDF0;
+ padding-right: 106px;
+
+}
+
+.Experience{
+  margin-left: 80px;
+  border-top: 2px solid #EAEDF0;
+}
+
+.patente{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DS{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
